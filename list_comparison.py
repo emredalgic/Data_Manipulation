@@ -121,10 +121,6 @@ def list_comparison(file_path, table_name):
    
 
 
-# file_path = r"\\Emeatristsql\IMP\LSCS1540\Benim_Aksigortam_YUKLE_3.csv"
-# table_name = "LSCS1540_IKAME_KONUT_TEMP"
-# table_name = "LSCS1540_BENIM_AKSIGORTAM_TEMP"
-
 # usage : python c:/Users/emre.dalgic/Dropbox/Apps/Python/List_Comparison/list_comparison.py "\\Emeatristsql\IMP\LSCS1540\Benim_Aksigortam_YUKLE_4.csv" LSCS1540_BENIM_AKSIGORTAM_TEMP
 
 if __name__ == "__main__":
