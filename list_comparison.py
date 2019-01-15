@@ -18,7 +18,7 @@ import time
 # mydb = create_engine('mssql+pymssql://Emeatristsql/{}'.format("Data_Proses2"))
 
 cnxnx = pyodbc.connect('DRIVER={{ODBC Driver 13 for SQL Server}};SERVER={};DATABASE={};UID={};PWD={};'.format(
-    "Emeatristsql", "Data_Proses2", "lsmuretim", "lsmuretim09"))
+    "Emeatristsql", "Data_Proses2", "username", "password"))
 
 
 def standart_insert(mylist,file_path,file_name,target_table):
